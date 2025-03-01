@@ -48,7 +48,7 @@ def display_menu():
 
 
 def input_data():
-        '''
+    '''
 
         This function takes the data as input from the user to perform various
         operations on the data and give different results to the user.
@@ -60,7 +60,6 @@ def input_data():
                     This function doesn't returns any value.
                     
     '''
-
     global data
     print("\nStep 1: Input Data")
     choice = input("Enter '1' for 1D array or '2' for 2D array: ")
@@ -79,7 +78,7 @@ def input_data():
 
 
 def display_summary():
-        '''
+    '''
 
         This function displays the summary of the data entered by the user like
         total elements, minimum value, maximum value, sum of all elements and
@@ -117,7 +116,7 @@ def display_summary():
 
 
 def calculate_factorial():
-        '''
+    '''
 
         This function has one more function in it which calls it self repeatetively
         until a condition is true and gives the factorial of the number entered by
@@ -133,7 +132,7 @@ def calculate_factorial():
 
     print("\nStep 3: Calculate Factorial (Recursion)")
     def factorial(n):
-            '''
+        '''
 
         This function is the main function where the logic of finding the factorial
         of a number entered using recursion method is mentioned.
@@ -145,18 +144,18 @@ def calculate_factorial():
         Returns:
                     This function doesn't returns any value.
                     
-    '''
+        '''
 
         if n == 0 or n == 1:
             return 1
         else:
             return n * factorial(n - 1)
-    num = int(input("Enter a number to calculate its factorial: "))
-    print(f"Factorial of {num} is: {factorial(num)}")
+        num = int(input("Enter a number to calculate its factorial: "))
+        print(f"Factorial of {num} is: {factorial(num)}")
 
 
 def filter_data():
-        '''
+    '''
 
         This function contains several small lambda functions to fillter out
         the data inputed by the user and prints all the values less than
@@ -184,7 +183,7 @@ def filter_data():
 
 
 def sort_data():
-        '''
+    '''
 
         This function sorts the data into ascending order or descending order
         by using sort() method or sortted() function.
@@ -221,7 +220,7 @@ def sort_data():
 
 
 def dataset_statistics():
-        '''
+    '''
 
         This function prints the statics values that have been gained by
         doing several operations on the data entered by the user like
@@ -257,7 +256,7 @@ def dataset_statistics():
 
 
 def main():
-        '''
+    '''
 
         This function acts as a main function of the whole program like this
         function calls the other functions which is called bythe user.
